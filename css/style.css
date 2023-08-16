@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Raleway', sans-serif;
+    padding :0;
+}
+
+/* Navbar Start */
+
+.navbar .nav-link{
+    color: #000000;
+}
+
+.home{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:top ;
+}  
+
+body{
+    
+    overflow-x: hidden;
+}
+
+.bg-img{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
+}
+.home .content{
+    text-align: center;
+    padding-top: 200px;
+}
+.home .content h5{
+    color: white;
+    font-size: 38px;
+    font-weight: 550;
+    text-shadow: 0px 1px 1px black;
+}
+.home .content h1{
+    color: white;
+    font-size: 70px;
+    font-weight: 550;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 5px;
+}
+.changecontent::after{
+    content: ' ';
+    color: #03a2ff;
+    text-shadow: 0px 1px 1px black;
+    animation: changetext 10s infinite linear;
+}
+@keyframes changetext{
+    0%{content: "Bonjour";}
+    10%{content: "Hola";}
+    20%{content: " Hello";}
+    30%{content: "Konnichiwa";}
+    40%{content: "Namaste";}
+    50%{content: "Assalamualaikum";}
+    60%{content: "Ciao";}
+    70%{content: "Merhaba";}
+    80%{content: "¡Hola!";}
+    90%{content: "Guten Tag";}
+    100%{content: "Hi";}
+} 
+.home .content p{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+.home .content a{
+    padding: 10px;
+    background: white;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 550;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.home .content a:hover{
+    background: #136598;
+    color: white;
+}
+@media (max-width:850px){
+    .home{
+        background-position: 50%;
+    }
+}
+@media (max-width:450px){
+    .home .content h5{
+        font-size: 25px;
+    }
+    .home .content h1{
+        font-size: 38px;
+    }
+    .home .content p{
+        font-size: 13px;
+    }
+}
+/* Home Section End */
+
+
+.main-text h1{
+    text-align: center;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+}
+
+@media (max-width:765px){
+    /* .book{
+        padding: 0;
+    } */
+    .main-text h1{
+        padding: 20px;
+    }
+}
+/* Section Book End */
+
+
+
+
+
+/* Section Packages Start */
+.main-txt h1{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+}
+.main-txt h1 span{
+    color:#136598;
+}
+
+/* Section Gallary Start */
+.gallary{
+    margin-top: 50px;
+}
+.gallary .card{
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    cursor: pointer;
+}
+.gallary .card img{
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.gallary .card img:hover{
+    transform: scale(1.1);
+}
+/* Section Gallary End */
+
+
+
+
+/* About Start */
+.about{
+    padding: 50px;
+    margin-top: 50px;
+    background: #f9f9f9;
+}
+.about .card{
+    border-radius: 10px;
+}
+.about .card img{
+    border-radius: 10px;
+}
+.about h2{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.about p{
+    font-weight: 500;
+}
+
+@media (max-width:765px){
+    .about{
+        padding: 0;
+    }
+}
+/* About End */
+
+
+
+
+/* Footer Start */
+#footer{
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+    background: #f9f9f9;
+}
+#footer h1{
+    font-weight: 600;
+    padding-top: 30px;
+    text-shadow: 0px 0px 1px black;
+}
+#footer h1 span{
+    color: #136598;
+}
+.social-links i{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    background: black;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.social-links i:hover{
+    background: #136598;
+}
+/* Footer End */
+
+ *{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+} 
+
+.box{
+    width: 100%;
+    height: 600px;
+    padding: 40px 60px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+.section-1{
+      height: 100vh;
+      background-image: url(images/k1.jpg);
+      background-attachment: fixed;
+      background-size: cover;
+      scroll-behavior: smooth;
+}
+
+.section-2{
+    background: #C5a78e;
+    scroll-behavior: smooth;
+}
+
+.section-3{
+    background-image: url(images/k2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    scroll-behavior: smooth;
+}
+
+.section-4{
+    background: #353332;
+    scroll-behavior: smooth;
+}
+
+.box p{
+    font-size: 20px;
+    margin-top: 100px;
+    scroll-behavior: smooth;
+}
+
+.box h1{
+    font-size: 50px;
+    text-shadow:  0px 0px 5px #000;
+    scroll-behavior: smooth;
+}

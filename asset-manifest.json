@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/raveneyecamera/static/css/main.e6c13ad2.css",
+    "main.js": "/raveneyecamera/static/js/main.40a2c056.js",
+    "static/js/787.87a503dd.chunk.js": "/raveneyecamera/static/js/787.87a503dd.chunk.js",
+    "index.html": "/raveneyecamera/index.html",
+    "main.e6c13ad2.css.map": "/raveneyecamera/static/css/main.e6c13ad2.css.map",
+    "main.40a2c056.js.map": "/raveneyecamera/static/js/main.40a2c056.js.map",
+    "787.87a503dd.chunk.js.map": "/raveneyecamera/static/js/787.87a503dd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.40a2c056.js"
+  ]
+}
